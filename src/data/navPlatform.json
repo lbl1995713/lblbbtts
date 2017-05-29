@@ -1,0 +1,67 @@
+{
+	"result":[
+		{
+			"title":"个人管理",
+			"img": "",
+			"link": "",
+			"x": "-274",
+			"y": "-246",
+			"child":[
+				{
+					"title": "个人资料",
+					"link": "userManage",
+					"role": "all"
+				},
+				{
+					"title": "修改密码",
+					"link": "password",
+					"role":"all"
+				}
+			]
+		},
+		{
+			"title": "信息管理",
+			"img": "",
+			"link": "",
+			"x": "-76",
+			"y": "-179",
+			"child": [
+				{
+					"title": "创建供应信息",
+					"link": "createSupplyInfor",
+					"role": "supplier"
+				},
+				{
+					"title": "创建需求信息",
+					"link": "createDemandedInfor",
+					"role": "demander"
+				},
+				{
+					"title": "管理供应信息",
+					"link": "manageSupplyInfor",
+					"role": "supplier"
+				},
+				{
+					"title": "管理邀请信息",
+					"link": "invitation",
+					"role": "demander"
+				},
+				{
+					"title": "管理需求信息",
+					"link": "manageDemandedInfor",
+					"role": "demander"
+				},
+				{
+					"title": "管理预约信息",
+					"link": "manageSubcribInfor",
+					"role": "demander"
+				},
+				{
+					"title": "管理自荐信息",
+					"link": "coverManage",
+					"role": "supplier"
+				}	
+			]
+		}
+	]
+}
